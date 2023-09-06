@@ -52,3 +52,16 @@ source .devops/bin/activate
 - Setup and Configure Kubernetes locally
 - Create Flask app in Container
 - Run via kubectl
+
+### Files in the repository
+
+1. .circleci: `contains the circle ci build yml file`
+2. output_txt_files: `contains terminal output of the predict end point, docker_out.txt and kubernetes_out.txt`
+3. Dockerfile: `The Dockerfile contains all the commands a user could call on the command line to assemble an image`
+4. Makefile: `Makefile with the following steps: make setup, make install, make test, make lint and make all.`
+5. app.py: `Python code which has the prdict endpint `
+6. make_prediction.sh: `Contains curl commands which executes post method predict`
+7. requirements.txt: `Install all the neccessary dependencies for project`
+8. run_docker.sh : `to buid a docker image and run on the desired port`
+9. run_kubernetes.sh : `deploying container into kubernetes cluster`
+10. upload_docker.sh: `To tag the docker image and to push to docker hub using login`
