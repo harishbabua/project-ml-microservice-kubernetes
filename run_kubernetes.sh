@@ -9,7 +9,7 @@ dockerpath=harishbabua/proj4api
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deployment kubernetes-udaproj4 --image=harishbabua/udacity:proj4api
+kubectl create deployment kubernetes-udaproj4 --image=harishbabua/proj4api
 
 # Step 3:
 # List kubernetes pods

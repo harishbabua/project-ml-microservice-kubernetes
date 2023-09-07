@@ -11,10 +11,11 @@ dockerpath=harishbabua/proj4api
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
-sudo docker tag proj4api:latest harishbabua/udacity:proj4api
+#docker tag <your-local-image>:<tag> <your-docker-hub-username>/<repository-name>:<tag>
+sudo docker tag proj4api:latest harishbabua/proj4api
 
-sudo docker login -u harishbabua --password-stdin
+sudo docker login -u harishbabua -p Ahsirah@4829
 # Step 3:
 # Push image to a docker repository
-
-sudo docker push harishbabua/udacity:proj4api
+#docker push <your-docker-hub-username>/<repository-name>:<tag>
+sudo docker push harishbabua/proj4api

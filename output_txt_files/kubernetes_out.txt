@@ -27,3 +27,18 @@ vboxuser@udacity-ubuntu:~/proj4/DevOps_Microservices/project-ml-microservice-kub
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
+
+(.devops) vboxuser@udacity-ubuntu:~/proj4/DevOps_Microservices/project-ml-microservice-kubernetes$ ./make_prediction.sh 
+
+Port: 8000
+
+{
+
+  "prediction": [
+
+    20.35373177134412
+
+  ]
+
+}
+
